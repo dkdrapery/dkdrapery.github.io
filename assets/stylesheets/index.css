@@ -1,18 +1,3 @@
-/*#curtain-container h3 {
-  text-align: center;
-}
-
-img {
-  display: block;
-  margin: 0 auto;
-}*/
-
-#index-desc {
-  width: 360px;
-  height: 228px;
-  margin: 0 auto;
-}
-
 .carousel{
   overflow:hidden;
   width:100%;
@@ -34,7 +19,6 @@ img {
   display:block;
   width:100%;
   max-width:200%;
-  /*height: auto;*/
 }
 .carousel h2{
   font-size:1em;
@@ -63,8 +47,8 @@ img {
   font-weight: bold;
 }
 a#previous_frame {
-  margin-left: -50px;
+  margin-left: -10%;
 }
 a#next_frame {
-  margin-left: 380px;
+  margin-left: 103%;
 }
