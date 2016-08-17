@@ -1,3 +1,43 @@
+/*#index-desc {
+        position: absolute;
+        bottom: 35%;
+        left: 35%;
+        h2 {
+          color: #C5C5C5;
+          font-weight: 300;
+        }
+
+@media (max-width: 899px) {
+  html {
+    width: 100%;
+  }
+
+  #index-desc {
+    width: 100%;
+    height: 100%;
+    padding: 4em 2em;
+    background-color: #FFFFFF;
+    max-height: 667px;
+    max-width: 500px;
+    margin: 0 auto;        */
+
+#curtain-images {
+  position: absolute;
+  bottom: 30%;
+  left: 32%;
+}
+
+#curtain-images h3 {
+  font-size: 1.5em;
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 150px;
+}
+
+#index-nonvid {
+  background: #3498db;
+}
+
 .carousel{
   overflow:hidden;
   width:100%;
@@ -14,11 +54,15 @@
   float:left;
   right:0;
   width:33.33333%; /* 100 / number of frames */
+  padding-top: 30px;
 }
 .carousel img{
   display:block;
   width:100%;
   max-width:200%;
+  padding: 5px;
+  /*border: 1px solid #021a40;*/
+  background-color: white;
 }
 .carousel h2{
   /*font-size:1em;*/
@@ -37,7 +81,8 @@
   font-family: monospace;
   text-decoration: none;
   position: absolute;
-  margin-top: 99px;
+  /*margin-top: 99px;*/
+  margin-top: 40%;
   width: 30px;
   line-height: 30px;
   background-color: #eee;
