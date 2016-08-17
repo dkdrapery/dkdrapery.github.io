@@ -21,7 +21,7 @@
   max-width:200%;
 }
 .carousel h2{
-  font-size:1em;
+  /*font-size:1em;*/
   padding:0.5em;
   position:absolute;
   bottom:10px;
@@ -30,6 +30,7 @@
   margin: 0;
   color:#fff;
   background-color:rgba(99,0,0,0.75);
+  font-family: 'Open Sans',sans-serif;
 }
 
 .carousel_controls a {
